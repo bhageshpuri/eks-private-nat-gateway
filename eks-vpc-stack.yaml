@@ -41,27 +41,27 @@ Parameters:
 
   VpcSecondaryBlock:
     Type: String
-    Default: 100.64.0.0/16
+    Default: 7.250.0.0/16
     Description: Secondary CIDR range for the VPC.
 
   Subnet01ClusterBlock:
     Type: String
-    Default: 100.64.1.0/28
+    Default: 7.250.1.0/28
     Description: CIDR Block for cluster subnet 01 
 
   Subnet02ClusterBlock:
     Type: String
-    Default: 100.64.2.0/28
+    Default: 7.250.2.0/28
     Description: CIDR Block for cluster subnet 02
 
   Subnet01PrivateSecondaryBlock:
     Type: String
-    Default: 100.64.16.0/20
+    Default: 7.250.16.0/20
     Description: CIDR Block for private secondary (non-routable) subnet 01 within the VPC
 
   Subnet02PrivateSecondaryBlock:
     Type: String
-    Default: 100.64.32.0/20
+    Default: 7.250.32.0/20
     Description: CIDR Block for private secondary (non-routable) subnet 02 within the VPC
 
   Subnet01Name:

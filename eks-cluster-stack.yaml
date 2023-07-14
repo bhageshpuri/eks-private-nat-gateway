@@ -59,8 +59,8 @@ Resources:
       RoleArn: !GetAtt EKSClusterRole.Arn
       Version: !Ref ClusterVersion
       ResourcesVpcConfig:
-        EndpointPrivateAccess: False
-        EndpointPublicAccess: True
+        EndpointPrivateAccess: True
+        EndpointPublicAccess: False
         SubnetIds:
           - Fn::ImportValue: !Sub ${VPCStackName}-CLUSTER-SUBNET01
           - Fn::ImportValue: !Sub ${VPCStackName}-CLUSTER-SUBNET02

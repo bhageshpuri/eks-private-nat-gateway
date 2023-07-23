@@ -86,22 +86,22 @@ Parameters:
 
   Subnet01ClusterName:
     Type: String
-    Default: "PRIVATE-CLUSTER-SECONDARY-1"
+    Default: "pupi-control-plane-1"
     Description: Name for private subnet 01  
 
   Subnet02ClusterName:
     Type: String
-    Default: "PRIVATE-CLUSTER-SECONDARY-2"
+    Default: "pupi-control-plane-2"
     Description: Name for private subnet 02 
 
   Subnet01PrivateSecondaryName:
     Type: String
-    Default: "PRIVATE-WORKER-SECONDARY-1"
+    Default: "pupi-worker-node-1"
     Description: Name for private secondary (non-routable) subnet 01  
 
   Subnet02PrivateSecondaryName:
     Type: String
-    Default: "PRIVATE-WORKER-SECONDARY-2"
+    Default: "pupi-worker-node-2"
     Description: Name for private secondary (non-routable) subnet 02        
 
 Metadata:
